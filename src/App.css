@@ -1,0 +1,25 @@
+.content-wrapper {
+  min-height: calc(100vh - 56px);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding-bottom: 2rem;
+}
+
+.table {
+  background-color: white;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
